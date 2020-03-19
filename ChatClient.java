@@ -5,10 +5,8 @@ import java.awt.event.ActionListener;
 import java.io.*;
 import java.net.Socket;
 
-public class ChatClient {
-
-     
-
+public class ChatClient 
+{
     static JFrame chatWindow = new JFrame("Chat Application");
     static JTextArea chatArea = new JTextArea(22, 40);
     static JTextField textField = new JTextField(40);
@@ -36,7 +34,6 @@ public class ChatClient {
         textField.addActionListener(new Listener());
 
     }
-
     void startChat() throws Exception
     {
 
